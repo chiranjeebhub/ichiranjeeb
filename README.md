@@ -1,2 +1,0 @@
-# ichiranjeeb
-Created with CodeSandbox
