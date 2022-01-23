@@ -1,6 +1,13 @@
 import React from "react";
 
-import { Avatar, Space } from "antd";
+import { Avatar, Space, Switch } from "antd";
+
+import {
+  CloseOutlined,
+  CheckOutlined,
+  BulbOutlined,
+  BulbFilled,
+} from "@ant-design/icons";
 
 const Nav = () => {
   return (
@@ -12,7 +19,8 @@ const Nav = () => {
         alignItems: "center",
         padding: "10px 30px",
         // paddingTop: "20px",
-        background: "white",
+        // background: "#d1d8e0",
+        background: "#ecf0f1",
       }}
     >
       <Space>
@@ -41,6 +49,11 @@ const Nav = () => {
         <div className="navitem">
           <div className="navInside">💳&nbsp;&nbsp;Credit Cards</div>
         </div>
+        <Switch
+          checkedChildren={<BulbFilled />}
+          unCheckedChildren={<BulbOutlined />}
+          defaultChecked
+        />
       </Space>
     </div>
   );
