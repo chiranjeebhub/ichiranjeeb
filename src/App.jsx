@@ -22,12 +22,13 @@ export default function App() {
       <Row
         // className="christmas"
         style={{
-          padding: "30px 10vw",
+          padding: "0px 10vw",
           display: "flex",
           alignItems: "center",
           background: "#213F4A",
+          height: "50vh",
         }}
-        gutter={30}
+        // gutter={30}
       >
         <Col span={16}>
           <img
